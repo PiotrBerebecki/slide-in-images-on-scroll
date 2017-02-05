@@ -9,7 +9,6 @@ Live version: https://slide-in-images-on-scroll.herokuapp.com
 * Vanilla JavaScript
 * ES6
 * Express
-* Flexbox
 
 ## Getting started
 
