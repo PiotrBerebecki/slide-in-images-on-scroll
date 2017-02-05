@@ -2,7 +2,7 @@
 
 Live version: https://slide-in-images-on-scroll.herokuapp.com
 
-<!-- <img src="./src/graphics/screencast.gif" width="275px" height="auto"> -->
+<img src="./src/graphics/screencast.gif" width="275px" height="auto">
 
 ## Tech stack
 * Node
