@@ -38,6 +38,10 @@ h1 {
   }
 }
 
+img {
+  max-width: 50%;
+}
+
 .align-left {
   float: left;
   margin-right: 20px;
