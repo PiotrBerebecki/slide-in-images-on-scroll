@@ -4,8 +4,8 @@ window.addEventListener('scroll', debounce(checkSlide));
 
 
 function checkSlide(e) {
-  slidingImages.forEach(slidingImage => {
-    // half way through the images, changes depending on scroll
+  slidingImages.slice(0,1).forEach(slidingImage => {
+    // bottom scroll position without half of the image
     const currentYPositionToStartSliding = window.scrollY + window.innerHeight - slidingImage.height / 2;
     
     // bottom of the image, does not change
@@ -13,8 +13,7 @@ function checkSlide(e) {
     
     const isHalfShown = currentYPositionToStartSliding > slidingImage.offsetTop;
     const isScrolledPast = window.scrollY > imageBottom;
-    
-    console.log('function');
+
     if (isHalfShown && !isScrolledPast) {
       slidingImage.classList.add('active');
     } else {
